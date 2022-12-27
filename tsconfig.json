@@ -1,0 +1,7 @@
+{
+  "compilerOptions" : {
+    "target": "es5", // 자바스크립트 버전
+    "module": "commonjs", // 자바스크립트 import 문법
+    "strictNullChecks": true // null 타입이 들어올 때 체크
+  }
+}
