@@ -43,7 +43,7 @@ function hi(name:string, age?:number):string {
 console.log(hi("sera", 20));
 
 // 나머지 매개변수는 배열 형태로 type 지정
-function plus2(...nums: number[]) {
+function plus2(...nums :number[]) {
     return nums.reduce((result, num) => result + num, 0);
 }
 
